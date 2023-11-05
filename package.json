@@ -1,6 +1,6 @@
 {
   "name": "js-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A js tools",
   "main": "index.js",
   "type": "module",
