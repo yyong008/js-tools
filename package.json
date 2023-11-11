@@ -1,6 +1,6 @@
 {
-  "name": "js-tools",
-  "version": "0.0.2",
+  "name": "i-js-tools",
+  "version": "0.0.3",
   "description": "A js tools",
   "main": "index.js",
   "type": "module",
@@ -13,11 +13,17 @@
     "changeset": "changeset",
     "version": "changeset version",
     "commit": "git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "publish": "npm publish --registry=https://registry.npmjs.org/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tools",
+    "array",
+    "object",
+    "test"
+  ],
+  "author": "magneisum-",
+  "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
@@ -41,5 +47,11 @@
   },
   "dependencies": {
     "tslib": "^2.6.2"
-  }
+  },
+  "files": [
+    "./dist",
+    "./package.json",
+    "./README.md",
+    "./__tests__"
+  ]
 }
